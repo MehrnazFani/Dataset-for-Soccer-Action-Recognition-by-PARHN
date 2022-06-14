@@ -17,7 +17,7 @@ Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeep
 
 <p align="center">
     <img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_sideView.gif"/>
-  <                              />
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
    <img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/7aeb5d9eab6175e4e98d2cee9f8763070837d7b3/images/RecievePass_backView.gif"/> 
   
 </p>
