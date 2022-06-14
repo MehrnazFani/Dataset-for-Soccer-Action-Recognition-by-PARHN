@@ -13,7 +13,7 @@ This repository introduces PARHN and is linked with a [CRV paper](https://ieeexp
        
 </p>
 
-Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeeper) Diving) are recognized.
+Four types of actions (i.e., Giving pass, Recieving pass, Shooting and (Goalkeeper) Diving)  with articulated pose Using Stacked Hourglass Network:
 
 <p align="center">
     <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/ba2d9632e1a907cbac9000a3ea11cb07290c881b/images/GivingPass-sideView.gif"/>
@@ -22,6 +22,7 @@ Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeep
   <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_sideView.gif"/>
   <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_backView.gif"/>
 </p>
+Giveing pass a) side-view b) back-view &nbsp; &nbsp; &nbsp; &nbsp; Receiving pass a) side-view b) back-view
 <p align="center">
     <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/77be9f3bbd07653f222d76780348cc8cab757c91/images/Shooting_frontView.gif"/>
    <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/77be9f3bbd07653f222d76780348cc8cab757c91/images/Shooting-backView.gif"/> 
@@ -29,3 +30,5 @@ Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeep
       <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/77be9f3bbd07653f222d76780348cc8cab757c91/images/Diving-FrontView.gif"/>
    <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/77be9f3bbd07653f222d76780348cc8cab757c91/images/Diving_sideView.gif"/> 
 </p>
+
+
