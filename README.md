@@ -1,6 +1,6 @@
 # Pose-projected Action Recognition Hourglass Network (PARHN) in Soccer
 
-This repository introduces PARHN and is linked with a [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video sequence of arbitrary length, and outputs action type of the player. It is comprises four main components: 
+This repository introduces PARHN and is linked with a [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video sequence of arbitrary length, and outputs action type of the player. It comprises four main components: 
 + Comp. 1 Stacked hourglass networks (or any state-of-the-art pose estimation network) for estimating pose of the player in all the frames of the sequence.
 + Comp. 2 Pose transformer and pose projector for obtaining a robust representation of the player pose. 
 + Comp. 3 Two LSTM layers that integrate the pose information throughout the input sequence are used. 
@@ -13,3 +13,6 @@ This repository introduces PARHN and is linked with a [CRV paper](https://ieeexp
 </p>
 
 Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeeper) Diving) are recognized.
+  <p align="center">
+  <img width="800" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/81e0e43bbb4e4442ec2360f0ba23272c7bdacfb7/images/PARHN.jpg" alt="PAHRN"
+</p>
