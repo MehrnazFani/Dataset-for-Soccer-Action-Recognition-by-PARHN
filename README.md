@@ -13,7 +13,3 @@ This repository is related to a [CRV paper](https://ieeexplore.ieee.org/abstract
 </p>
 
 Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeeper) Diving) are recognized.
-  
-<p align="center">
-  <img width="800" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/81e0e43bbb4e4442ec2360f0ba23272c7bdacfb7/images/PARHN.jpg" alt="PAHRN"
-</p>
