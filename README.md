@@ -14,7 +14,7 @@ This repository introduces PARHN and is linked with a [CRV paper](https://ieeexp
 </p>
 
 Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeeper) Diving) are recognized.
-  <p align="center">
-  <img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_sideView.gif" alt="PAHRN"
-   img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_backView.gif" alt="PAHRN">   
+  <p float="left">
+  <img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_sideView.gif"/>
+   <img width="200" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_backView.gif"/>   
 </p>
