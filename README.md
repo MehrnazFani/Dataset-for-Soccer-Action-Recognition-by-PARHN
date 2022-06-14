@@ -16,9 +16,9 @@ This repository introduces PARHN and is linked with a [CRV paper](https://ieeexp
 Four types of actions (i.e., Shooting, Giving pass, Recieving pass and (Goalkeeper) Diving) are recognized.
 
 <p align="center">
-    <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/4486b7463c1589ba7b525b08abb449b473190739/images/RecievePass_sideView.gif"/>
-   <img width="1500" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/7aeb5d9eab6175e4e98d2cee9f8763070837d7b3/images/RecievePass_backView.gif"/> 
+    <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/ba2d9632e1a907cbac9000a3ea11cb07290c881b/images/GivingPass-sideView.gif"/>
+   <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/ba2d9632e1a907cbac9000a3ea11cb07290c881b/images/GivingPass-backView.gif"/> 
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img width="1500" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_sideView.gif"/>
-  <img width="1500" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_backView.gif"/>
+  <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_sideView.gif"/>
+  <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/febbe9d928b1d16448a425d0bceacf54ed86c958/images/RecievePass_backView.gif"/>
 </p>
