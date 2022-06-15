@@ -40,7 +40,7 @@ SAR4 is a dataset generated for action recognition of individual soccer players 
 + The YouTube videos are collected for four action types in soccer, i.e., goal-keeper diving, player shooting, receiving pass and giving pass.  
 + The videos are trimmed by removing the extra frames from start and end of the sequences, which were not related to the action.
 + The target player is manually tracked in all frames of the sequence and his body-center is determined in each frame.
-+ To increase number of video sequences in SAR4, data augmentation has been performed by: Scaling the frames, temporally changing lengths of sequences (by cutting few first/and last frames of the sequence, or by omitting odd/even frames of the sequence), rotating the frames with a random angle in the interval of $$[-10^O  10^O]$$
++ To increase number of video sequences in SAR4, data augmentation has been performed by: Scaling the frames, temporally changing lengths of sequences (by cutting few first/and last frames of the sequence, or by omitting odd/even frames of the sequence), rotating the frames with a random angle in the interval of $[-10^O  10^O]$
 
 
 
