@@ -1,6 +1,6 @@
 # Soccer action recognition dataset with 4 classes (SAR4), for pose-projected action recognition hourglass network (PARHN)
 
-This repository includes the SAR4 dataset that is used for training, test an validation of PARHN,see [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video-frame sequence, and outputs action type of the player, in that sequence. It comprises four main components: 
+This repository includes the SAR4 dataset that is used for training, test an validation of PARHN, see [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video-frame sequence, and outputs action type of the player, in that sequence. It comprises four main components: 
 + Comp. 1 Stacked hourglass networks (or any state-of-the-art pose estimation network) for estimating pose of the player in all the frames of the sequence.
 + Comp. 2 Pose transformer and pose projector for obtaining a robust representation of the player pose. 
 + Comp. 3 Two LSTM layers that integrate the pose information throughout the input sequence. 
