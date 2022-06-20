@@ -1,6 +1,6 @@
 # Pose-projected Action Recognition Hourglass Network (PARHN) in Soccer
 
-This repository introduces PARHN, [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video-frame sequence, and outputs action type of the player, in that sequence. It comprises four main components: 
+This repository includes the SAR4 dataset that is used for training, test an validation of PARHN, [CRV paper](https://ieeexplore.ieee.org/abstract/document/8781607). PARHN is a network that performs player action recognition in soccer. It inputs, a soccer video-frame sequence, and outputs action type of the player, in that sequence. It comprises four main components: 
 + Comp. 1 Stacked hourglass networks (or any state-of-the-art pose estimation network) for estimating pose of the player in all the frames of the sequence.
 + Comp. 2 Pose transformer and pose projector for obtaining a robust representation of the player pose. 
 + Comp. 3 Two LSTM layers that integrate the pose information throughout the input sequence. 
@@ -42,12 +42,12 @@ Four types of actions (i.e., Giving pass, Recieving pass, Shooting and (Goalkeep
 </p>
 <p align="center"> Diving: a)Front view&nbsp; &nbsp;b)Side view </p>
   
-# Dataset: Soccer action recognition 4 classes(SAR4)
-SAR4 is a dataset generated for action recognition of individual soccer players from videos. It is composed of 1292 sequences of soccer videos with various lengths changing in the range of 5 to 59 frames per sequence. The SAR4 dataset is generated following the below steps:
+# Soccer Action Recognition with 4 classes(SAR4) dataset: 
+SAR4 is a dataset generated for action recognition of individual soccer players from videos. It is composed of 1292 sequences of soccer videos with various lengths changing in the range of 5 to 59 frames per sequence. The SAR4 dataset is generated from 131 origial sequences following the below steps:
 + The YouTube videos are collected for four action types in soccer, i.e., goal-keeper diving, player shooting, receiving pass and giving pass.  
 + The videos are trimmed by removing the extra frames from start and end of the sequences, which were not related to the action.
 + The target player is manually tracked in all frames of the sequence, i.e, bbox around the target player is annotated.
-> To increase number of video sequences in SAR4, data augmentation has been performed by: Scaling the frames, temporally changing lengths of sequences (by cutting few first/and last frames of the sequence, or by omitting odd/even frames of the sequence), rotating the frames with a random angle in the interval of $[-10^O, 10^O]$
++ To increase number of video sequences to 1292 in SAR4, data augmentation has been performed by: Scaling the frames, temporally changing lengths of sequences (by cutting few first/and last frames of the sequence, or by omitting odd/even frames of the sequence), rotating the frames with a random angle in the interval of $[-10^O, 10^O]$
 
 
 
