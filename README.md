@@ -13,7 +13,7 @@ This repository includes the SAR4 dataset that is used for training, test an val
        
 </p>
 
-Four types of actions (i.e., Giving pass, Recieving pass, Shooting and (Goalkeeper) Diving)  with articulated pose Using Stacked Hourglass Network:
+Four types of actions (i.e., Giving pass, Recieving pass, Shooting and (Goalkeeper) Diving)  with articulated pose Using Stacked Hourglass Network are shown in the following:
   
 <p align="center">
   <img width="150" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/ba2d9632e1a907cbac9000a3ea11cb07290c881b/images/GivingPass-sideView.gif"/>
