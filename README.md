@@ -53,7 +53,7 @@ SAR4 is a dataset generated for action recognition of individual soccer players 
 [Download SAR4 before augmentation from this link](https://www.dropbox.com/sh/90sqk6ttfbwf1ph/AAAVNmnj4UFuSAgLtTQCoh24a?dl=0)
 
 # Cite us please
-Please cite the following papers if you are using this code
+Please cite the following papers if you are using this dataset
 ```
 @inproceedings{fani2019pose,
   title={Pose-projected action recognition hourglass network (PARHN) in soccer},
