@@ -43,12 +43,14 @@ Four types of actions (i.e., Giving pass, Recieving pass, Shooting and (Goalkeep
 <p align="center"> Diving: a)Front view&nbsp; &nbsp;b)Side view </p>
   
 # Soccer Action Recognition with 4 classes(SAR4) Dataset: 
-SAR4 is a dataset generated for action recognition of individual soccer players from videos. It is composed of 1292 sequences of soccer videos with various lengths changing in the range of 5 to 59 frames per sequence. The SAR4 dataset is generated from 131 original sequences ([Download from this link](https://www.dropbox.com/sh/90sqk6ttfbwf1ph/AAAVNmnj4UFuSAgLtTQCoh24a?dl=0)) following the below steps:
+SAR4 is a dataset generated for action recognition of individual soccer players from videos. It is composed of 1292 sequences of soccer videos with various lengths changing in the range of 5 to 59 frames per sequence. The SAR4 dataset is generated following the below steps:
 + The YouTube videos are collected for four action types in soccer, i.e., goal-keeper diving, player shooting, receiving pass and giving pass.  
 + The videos are trimmed by removing the extra frames from start and end of the sequences, which were not related to the action.
 + The target player is manually tracked in all frames of the sequence, i.e, bbox around the target player is annotated.
 + Each sequence is labled based on the playes' action type 
 + To increase number of video sequences to 1292, data augmentation has been performed by: Scaling the frames, temporally changing lengths of sequences (by cutting few first/and last frames of the sequence, or by omitting odd/even frames of the sequence), rotating the frames with a random angle in the interval of $[-10^O, 10^O]$
+
+[Download SAR4 before augmentation from this link](https://www.dropbox.com/sh/90sqk6ttfbwf1ph/AAAVNmnj4UFuSAgLtTQCoh24a?dl=0)
 
  
 
