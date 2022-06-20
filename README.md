@@ -9,7 +9,7 @@ This repository includes the SAR4 dataset that is used for training, test an val
 
 
 <p align="center">
-  <img width="600" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/81e0e43bbb4e4442ec2360f0ba23272c7bdacfb7/images/PARHN.jpg" alt="PAHRN"
+  <img width="600" src="https://github.com/MehrnazFani/Action-Recognition-in-Soccer/blob/81e0e43bbb4e4442ec2360f0ba23272c7bdacfb7/images/PARHN.jpg" alt="PAHRN"/>
        
 </p>
 
